@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML5 Demo</title>
+	</head>
+	
+	<body>
+		<h1>Vnos literata</h1>
+		
+		[ <a href="index.html">nazaj</a> ]
+		
+		<form action="vnos_post.html">
+
+			Ime:<br/>
+			<input type="text" name="ime" value="Ime"/><br/>
+			
+			Priimek:<br/>
+			<input type="text" name="priimek" value="Priimek"/><br/>
+			
+			Spol:<br/>
+			<input type="radio" name="spol" value="M" checked />Moški<br/>
+			<input type="radio" name="spol" value="Z" />Ženska<br/>
+			
+			Vrsta:<br/>
+			<select	name="vrsta">
+				<option value="pisatelj">Pisatelj/ica</option>
+				<option value="pesnik">Pesnik/ca</option>
+			</select><br/>
+		
+			Opombe:<br/>
+			<textarea name="opombe" rows="10" cols="40">Vnesite morebitne opombe.</textarea>
+
+			<br/> <br/>
+			<input type="submit" value="Dodaj"/>
+		</form>
+
+	</body>
+</html>
