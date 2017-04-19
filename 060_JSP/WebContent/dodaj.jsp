@@ -50,7 +50,7 @@
 				</tr>
 				<tr>
 					<td>Email:</td>
-					<td><input type="text" name="email" <% if (obstojeca!=null) { %> value="<%=obstojeca.getEmail()%>" disabled="disabled" <% } %> /></td>
+					<td><input type="text" name="email" <% if (obstojeca!=null) { %> value="<%=obstojeca.getEmail()%>" readonly <% } %> /></td>
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
